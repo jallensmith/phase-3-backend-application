@@ -1,5 +1,5 @@
 class Audition < ActiveRecord::Base 
-    belongs_to :castingdirector
+    belongs_to :director
     has_many :requests
-    has_many :actor, through: :requests
+    has_many :actors, through: :requests
 end

@@ -5,6 +5,6 @@ class CreateActors < ActiveRecord::Migration[6.1]
       t.string :email
       t.string :representation
       t.string :homebase
-    end
+    end  
   end
 end

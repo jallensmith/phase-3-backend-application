@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2023_07_21_013248) do
+ActiveRecord::Schema.define(version: 2023_07_23_200847) do
 
   create_table "actors", force: :cascade do |t|
     t.string "name"
@@ -21,11 +21,11 @@ ActiveRecord::Schema.define(version: 2023_07_21_013248) do
 
   create_table "auditions", force: :cascade do |t|
     t.string "show_name"
-    t.datetime "time"
-    t.string "Location"
+    t.string "date_time"
+    t.string "location"
   end
 
-  create_table "castingdirectors", force: :cascade do |t|
+  create_table "directors", force: :cascade do |t|
     t.string "name"
     t.string "agency_name"
   end

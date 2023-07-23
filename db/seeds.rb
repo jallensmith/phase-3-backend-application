@@ -7,62 +7,73 @@ puts "🌱 Seeding spices..."
 
 $actors_data = [{
   name: "LOREM",
+  email: "lorem@gmail.com",
   representation: "LOREM EPSUM",
   homebase: "LOLO",
 }, 
 {
   name: "LOREM",
+  email: "lorem@gmail.com",
   representation: "LOREM EPSUM",
   homebase: "LOLO",
 },
 {
   name: "LOREM",
+  email: "lorem@gmail.com",
   representation: "LOREM EPSUM",
   homebase: "LOLO",
 },
 {
   name: "LOREM",
+  email: "lorem@gmail.com",
   representation: "LOREM EPSUM",
   homebase: "LOLO",
 },
 {
     name: "LOREM",
+    email: "lorem@gmail.com",
     representation: "LOREM EPSUM",
     homebase: "LOLO"
 },
 {
 name: "LOREM",
+email: "lorem@gmail.com",
 representation: "LOREM EPSUM",
 homebase: "LOLO"
 },
 {
 name: "LOREM",
+email: "lorem@gmail.com",
 representation: "LOREM EPSUM",
 homebase: "LOLO"
 },
 {
 name: "LOREM",
+email: "lorem@gmail.com",
 representation: "LOREM EPSUM",
 homebase: "LOLO"
 },
 {
 name: "LOREM",
+email: "lorem@gmail.com",
 representation: "LOREM EPSUM",
 homebase: "LOLO"
 },
 {
 name: "LOREM",
+email: "lorem@gmail.com",
 representation: "LOREM EPSUM",
 homebase: "LOLO"
 },
 {
 name: "LOREM",
+email: "lorem@gmail.com",
 representation: "LOREM EPSUM",
 homebase: "LOLO"
 },
 ]
 
-$castingdirectors_data = [{
+$directors_data = [{
     name: "LOREM",
     agency_name: "LOREM-EPSUM"
 },
@@ -105,51 +116,51 @@ $castingdirectors_data = [{
 
 $auditions_data = [{
     show_name: "LOREM",
-    time: "LOREM 24",
-    Location: "LOREMLO"
+    date_time: "LOREM 24",
+    location: "LOREMLO"
 },{
     show_name: "LOREM",
-    time: "LOREM 24",
-    Location: "LOREMLO"
+    date_time: "LOREM 24",
+    location: "LOREMLO"
 },{
     show_name: "LOREM",
-    time: "LOREM 24",
-    Location: "LOREMLO"
+    date_time: "LOREM 24",
+    location: "LOREMLO"
 },{
     show_name: "LOREM",
-    time: "LOREM 24",
-    Location: "LOREMLO"
+    date_time: "LOREM 24",
+    location: "LOREMLO"
 },{
     show_name: "LOREM",
-    time: "LOREM 24",
-    Location: "LOREMLO"
+    date_time: "LOREM 24",
+    location: "LOREMLO"
 },{
     show_name: "LOREM",
-    time: "LOREM 24",
-    Location: "LOREMLO"
+    date_time: "LOREM 24",
+    location: "LOREMLO"
 },{
     show_name: "LOREM",
-    time: "LOREM 24",
-    Location: "LOREMLO"
+    date_time: "LOREM 24",
+    location: "LOREMLO"
 },{
     show_name: "LOREM",
-    time: "LOREM 24",
-    Location: "LOREMLO"
+    date_time: "LOREM 24",
+    location: "LOREMLO"
 },{
     show_name: "LOREM",
-    time: "LOREM 24",
-    Location: "LOREMLO"
+    date_time: "LOREM 24",
+    location: "LOREMLO"
 },{
     show_name: "LOREM",
-    time: "LOREM 24",
-    Location: "LOREMLO"
+    date_time: "LOREM 24",
+    location: "LOREMLO"
 },]
 
-Binding.pry
+# Binding.pry
 
 $actors_data.each{|a| Actor.create(a)}
 $auditions_data.each{|r| Audition.create(r)}
-$castingdirectors_data.each{|d| CastingDirector.create(d)}
+$directors_data.each{|d| Director.create(d)}
 
 # $casting_directors_data.each{|c| CastingDirector.create(c)}
 
