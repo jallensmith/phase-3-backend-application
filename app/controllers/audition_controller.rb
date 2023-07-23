@@ -15,11 +15,19 @@ class AuditionsController < ApplicationController
         audition.to_json
     end
 
-    patch '/pets/:id' do 
-        pet = Audition.find(params[:id])
-        pet.update(params)
-        pet.to_json
+    patch '/auditions/:id' do 
+        audition = Audition.find(params[:id])
+        audition.update(params)
+        audition.to_json
     end
 
+    delete '/auditions/:id' do 
+        audition = Audition.find(params[:id])
+        audition.destroy
+    end
+
+    def audition_params 
+        params.permit(:show_name, :time, :location)
+    end
 
 end

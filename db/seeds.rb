@@ -145,4 +145,12 @@ $auditions_data = [{
     Location: "LOREMLO"
 },]
 
+Binding.pry
+
+$actors_data.each{|a| Actor.create(a)}
+$auditions_data.each{|r| Audition.create(r)}
+$castingdirectors_data.each{|d| CastingDirector.create(d)}
+
+# $casting_directors_data.each{|c| CastingDirector.create(c)}
+
 puts "✅ Done seeding!"

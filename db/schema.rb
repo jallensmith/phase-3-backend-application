@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 2023_07_21_013248) do
 
   create_table "actors", force: :cascade do |t|
     t.string "name"
+    t.string "email"
     t.string "representation"
     t.string "homebase"
   end
@@ -30,7 +31,7 @@ ActiveRecord::Schema.define(version: 2023_07_21_013248) do
   end
 
   create_table "requests", force: :cascade do |t|
-    t.integer "casting_director_id"
+    t.integer "castingdirector_id"
     t.integer "audition_id"
   end
 

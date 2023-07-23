@@ -1,4 +1,4 @@
-class CreatRequests < ActiveRecord::Migration[6.1]
+class CreateRequests < ActiveRecord::Migration[6.1]
   def change
     create_table :requests do |t|
     t.integer  :casting_director_id
