@@ -1,4 +1,4 @@
-require 'pry'
+require "pry"
 
 puts "🌱 Seeding spices..."
 
@@ -6,19 +6,143 @@ puts "🌱 Seeding spices..."
 # comma between objects in hashes
 
 $actors_data = [{
-
-}]
-
-$requests_data = [{
-
-}]
+  name: "LOREM",
+  representation: "LOREM EPSUM",
+  homebase: "LOLO",
+}, 
+{
+  name: "LOREM",
+  representation: "LOREM EPSUM",
+  homebase: "LOLO",
+},
+{
+  name: "LOREM",
+  representation: "LOREM EPSUM",
+  homebase: "LOLO",
+},
+{
+  name: "LOREM",
+  representation: "LOREM EPSUM",
+  homebase: "LOLO",
+},
+{
+    name: "LOREM",
+    representation: "LOREM EPSUM",
+    homebase: "LOLO"
+},
+{
+name: "LOREM",
+representation: "LOREM EPSUM",
+homebase: "LOLO"
+},
+{
+name: "LOREM",
+representation: "LOREM EPSUM",
+homebase: "LOLO"
+},
+{
+name: "LOREM",
+representation: "LOREM EPSUM",
+homebase: "LOLO"
+},
+{
+name: "LOREM",
+representation: "LOREM EPSUM",
+homebase: "LOLO"
+},
+{
+name: "LOREM",
+representation: "LOREM EPSUM",
+homebase: "LOLO"
+},
+{
+name: "LOREM",
+representation: "LOREM EPSUM",
+homebase: "LOLO"
+},
+]
 
 $castingdirectors_data = [{
-
-}]
+    name: "LOREM",
+    agency_name: "LOREM-EPSUM"
+},
+{
+    name: "LOREM",
+    agency_name: "LOREM EPSUM"
+},
+{
+    name: "LOREM",
+    agency_name: "LOREM EPSUM"
+},
+{
+    name: "LOREM",
+    agency_name: "LOREM EPSUM"
+},
+{
+    name: "LOREM",
+    agency_name: "LOREM EPSUM"
+},
+{
+    name: "LOREM",
+    agency_name: "LOREM EPSUM"
+},
+{
+    name: "LOREM",
+    agency_name: "LOREM EPSUM"
+},
+{
+    name: "LOREM",
+    agency_name: "LOREM EPSUM"
+},
+{
+    name: "LOREM",
+    agency_name: "LOREM EPSUM"
+},
+{
+    name: "LOREM",
+    agency_name: "LOREM EPSUM"
+},]
 
 $auditions_data = [{
-
-}]
+    show_name: "LOREM",
+    time: "LOREM 24",
+    Location: "LOREMLO"
+},{
+    show_name: "LOREM",
+    time: "LOREM 24",
+    Location: "LOREMLO"
+},{
+    show_name: "LOREM",
+    time: "LOREM 24",
+    Location: "LOREMLO"
+},{
+    show_name: "LOREM",
+    time: "LOREM 24",
+    Location: "LOREMLO"
+},{
+    show_name: "LOREM",
+    time: "LOREM 24",
+    Location: "LOREMLO"
+},{
+    show_name: "LOREM",
+    time: "LOREM 24",
+    Location: "LOREMLO"
+},{
+    show_name: "LOREM",
+    time: "LOREM 24",
+    Location: "LOREMLO"
+},{
+    show_name: "LOREM",
+    time: "LOREM 24",
+    Location: "LOREMLO"
+},{
+    show_name: "LOREM",
+    time: "LOREM 24",
+    Location: "LOREMLO"
+},{
+    show_name: "LOREM",
+    time: "LOREM 24",
+    Location: "LOREMLO"
+},]
 
 puts "✅ Done seeding!"
